@@ -1,0 +1,39 @@
+[2026-04-19T23:02:54Z] === ENRICH ITERATION 1 START | repo=webpack/webpack-cli sha=a515b764 ===
+[2026-04-19T23:02:54Z] [iter=1] PHASE START: enrich repo=webpack/webpack-cli sha=a515b764 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a515b764-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a515b76434a5031aada10f660975ea03d2a66218.nq.gz
+[2026-04-19T23:03:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-04-19T23:03:22Z] [iter=1] AST store loaded triples=602076 load_secs=4 mem_mb=843 MB
+[2026-04-19T23:03:22Z] [iter=1] Step 2: Finding LSP targets mem_mb=843 MB
+[2026-04-19T23:03:23Z] [iter=1] LSP targets found call_sites=7070 imports=264 extends=20 implements=0 secs=1
+[2026-04-19T23:03:23Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=843 MB
+[2026-04-19T23:03:26Z] [iter=1] Position index built positions=39661 nodes_with_types=48648 secs=3 mem_mb=843 MB
+[2026-04-19T23:03:26Z] [iter=1] Step 3: Starting LSP resolution mem_mb=843 MB already_completed_types=[] already_completed_files=0
+[2026-04-19T23:03:26Z] [iter=1] Resolving target type target_type=call_site count=7070
+[2026-04-19T23:03:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=packages/migrate/src/migrate.ts
+[2026-04-19T23:03:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=3 resolved=7 errors=128 current=packages/utils/__tests__/run-prettier.test.ts
+[2026-04-19T23:04:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=10 resolved=12 errors=278 current=packages/generators/__tests__/utils/styleSupport.test.ts
+[2026-04-19T23:05:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=12 resolved=26 errors=428 current=packages/utils/src/resolve-packages.ts
+[2026-04-19T23:05:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=17 resolved=34 errors=564 current=packages/generators/__tests__/addon-generator.test.ts
+[2026-04-19T23:06:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=24 resolved=40 errors=694 current=packages/migrate/src/commonsChunkPlugin/commonsChunkPlugin.ts
+[2026-04-19T23:06:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=29 resolved=51 errors=838 current=packages/generators/__tests__/utils/plugins.test.ts
+[2026-04-19T23:07:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=37 resolved=61 errors=977 current=packages/generators/src/utils/entry.ts
+[2026-04-19T23:07:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=51 resolved=62 errors=1109 current=packages/generators/src/utils/plugins.ts
+[2026-04-19T23:08:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=67 resolved=64 errors=1238 current=packages/init/src/index.ts
+[2026-04-19T23:08:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=94 resolved=76 errors=1363 current=test/init/generator/init-inquirer.test.js
+[2026-04-19T23:09:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=104 resolved=76 errors=1513 current=test/entry/multiple-entries/multi-entries.test.js
+[2026-04-19T23:09:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=117 resolved=94 errors=1647 current=packages/webpack-cli/__tests__/ConfigGroup/ConfigGroup.test.js
+[2026-04-19T23:10:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=128 resolved=116 errors=1794 current=test/core-flags/parallelism-flag.test.js
+[2026-04-19T23:10:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=138 resolved=131 errors=1956 current=test/env/array/array-env.test.js
+[2026-04-19T23:11:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=151 resolved=135 errors=2091 current=test/entry/defaults-empty/entry-single-arg.test.js
+[2026-04-19T23:11:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=166 resolved=142 errors=2224 current=packages/webpack-cli/__tests__/AdvancedGroup.test.js
+[2026-04-19T23:12:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=185 resolved=159 errors=2382 current=packages/migrate/__tests__/commonsChunkPlugin/__testfixtures__/commonsChunkPlugin-6d.input.js
+[2026-04-19T23:13:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=200 resolved=166 errors=2519 current=test/config/multiple/multiple-config.test.js
+[2026-04-19T23:13:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=239 resolved=183 errors=2651 current=packages/migrate/__tests__/uglifyJsPlugin/__testfixtures__/uglifyJsPlugin-2.input.js
+[2026-04-19T23:14:06Z] [iter=1] Target type resolved target_type=call_site resolved=252 errors=2777 secs=640 mem_mb=843 MB
+[2026-04-19T23:14:06Z] [iter=1] Resolving target type target_type=import_statement count=264
+[2026-04-19T23:14:06Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=11.2 files_done=0 resolved=0 errors=0 current=packages/migrate/__tests__/loaders/loaders.test.ts
+[2026-04-19T23:14:12Z] [iter=1] Target type resolved target_type=import_statement resolved=145 errors=0 secs=6 mem_mb=843 MB
+[2026-04-19T23:14:12Z] [iter=1] Resolving target type target_type=extends_clause count=20
+[2026-04-19T23:14:15Z] [iter=1] Target type resolved target_type=extends_clause resolved=20 errors=0 secs=3 mem_mb=843 MB
+[2026-04-19T23:14:23Z] [iter=1] Step 5: Writing final enrichment file triples=47370
+[2026-04-19T23:14:24Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a515b76434a5031aada10f660975ea03d2a66218.nq.gz size_kb=1122
+[2026-04-19T23:14:24Z] [iter=1] PHASE END: enrich elapsed_s=690 elapsed_min=11.5 total_triples=47370
